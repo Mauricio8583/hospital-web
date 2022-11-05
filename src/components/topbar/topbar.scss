@@ -1,0 +1,46 @@
+.container{
+    background-color: #d3e7f3;
+    height: 100px;
+    padding: 0 50px;
+    margin-top: -10px;
+    margin-left: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    .menuList{
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+        .menuListItem{
+            margin: 20px;
+            font-weight: 500;
+            font-size: 20px;  
+            transition: 0.2s all ease;
+            cursor: pointer;
+            
+            &:hover{
+                background-color: #2a3648;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                
+            }
+        }
+
+        img{
+            width: 80px;
+            height: 60px;
+        }
+
+        
+       
+    }
+}
+
