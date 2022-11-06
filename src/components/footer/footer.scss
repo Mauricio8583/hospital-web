@@ -1,0 +1,48 @@
+.footerContainer{
+    height: calc(100vh - 100px);
+    background-color: #4083ee;
+    display: flex;
+    margin-left: -10px;
+
+    .items{
+        flex: 1;
+        position: relative;
+        display: flex;
+
+        .card{
+            flex: 1;
+            padding: 0 20px;
+            color: white;
+            font-weight: 500;
+
+            h2{
+                font-weight: bold;
+            }
+
+            .phonesList{
+                list-style: none;
+                
+                li{
+                    margin: 5px;                    
+                }
+            }
+
+            .phonesTable{
+                                          
+                
+                .longName{
+                    width: 20px;
+                }                
+            }
+
+            .time{
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+.phoneIcon{
+    margin-right: 10px;
+}
