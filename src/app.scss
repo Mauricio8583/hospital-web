@@ -1,0 +1,17 @@
+.app{
+    height: calc(100vh - 70px);
+    width: 100vw;
+    position: relative;
+    top: 70px;
+
+    .sections{
+        height: calc(100vh - 70px);
+        width: 100%;
+    }
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
