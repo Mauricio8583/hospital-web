@@ -35,7 +35,7 @@ export const Home = () => {
                 
         </div>
         <div className='arrowLeft' onClick={() => handleSlider('left')}><ArrowBack /></div>
-        <div className='arrowRight' onClick={() => handleSlider('right')}><ArrowForward /></div>
+        <div className='arrowRight' onClick={() => handleSlider('right')}><ArrowForward /></div>        
     </div>
   )
 }

@@ -23,6 +23,7 @@
             font-weight: 500;
             font-size: 18px;  
             transition: 0.2s all ease;
+            text-decoration: none;
             cursor: pointer;
             
             &:hover{
@@ -35,6 +36,10 @@
                 text-decoration: underline;
                 
             }
+        }
+
+        .menuListItemImg{
+            cursor: pointer;
         }
 
         img{

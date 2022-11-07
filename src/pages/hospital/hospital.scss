@@ -1,0 +1,56 @@
+.hospitalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .mainText{
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        h1{
+            color: #f53134;
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 30px;
+            font-weight: 500;
+            padding: 10px;
+            line-height: 1.5;
+        }
+ 
+ 
+    }
+
+    .extraInfo{
+        h2{
+            color: #f53134;
+            font-size: 30px;
+        }
+
+        
+        ul{
+            list-style: none;
+            margin-top: 30px;            
+        }
+
+        .textLine{
+            font-size: 24px;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+
+        .secondList{
+            margin-top: 100px;
+
+            ul{
+                margin: 100px 0;
+            }
+        }
+    }
+}

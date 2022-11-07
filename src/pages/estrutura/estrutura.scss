@@ -1,0 +1,27 @@
+.structureContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .showImages{
+        display: flex;
+        flex-direction: column;
+
+        h1{
+            color: #f53134;
+        }
+                
+        ul{
+            display: flex;
+            list-style: none;
+            
+        }
+
+        img{
+            width: 300px;
+            height: 300px;
+            margin: 50px;
+            border-radius: 5px;            
+        }
+    }
+}
