@@ -9,8 +9,8 @@ export const Topbar = () => {
         <ul className='menuList'>
             <li className='menuListItem'><Link to="/hospital">O Hospital</Link></li>
             <li className='menuListItem'><Link to="/estrutura">Estrutura</Link></li>
-            <li className='menuListItem'>Especialidades</li>
-            <li className='menuListItem'>Convênios e Planos</li>
+            <li className='menuListItem'><Link to="/especialidades">Especialidades</Link></li>
+            <li className='menuListItem'><Link to="/convenios">Convênios e Planos</Link></li>
             <li className='menuListItemImg'><Link to="/"><img src='../../hospital.jpg' alt='' /></Link></li>
             <li className='menuListItem'>Laboratorio</li>
             <li className='menuListItem'>Localização</li>

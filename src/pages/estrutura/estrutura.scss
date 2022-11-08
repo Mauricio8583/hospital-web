@@ -6,7 +6,7 @@
     .showImages{
         display: flex;
         flex-direction: column;
-
+        
         h1{
             color: #f53134;
         }
@@ -14,11 +14,17 @@
         ul{
             display: flex;
             list-style: none;
-            
+
+            li{
+                h2{
+                    margin-left: 140px;                    
+                }
+            }
+                   
         }
 
         img{
-            width: 300px;
+            width: 350px;
             height: 300px;
             margin: 50px;
             border-radius: 5px;            

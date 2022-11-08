@@ -18,8 +18,7 @@ export const Hospital = () => {
                 o Hospital foi transferido para uma nova entidade Mantenedora,
                  a AFPERGS – Associação dos Funcionários Públicos do Estado do Rio Grande do Sul -
               marcando assim uma nova fase de modernização.</p>
-        </div>
-        <div className='extraInfo'>
+              <div className='extraInfo'>
             <h2>Informações Gerais</h2>
             <ul>
                 <li className='textLine'>Adiquirido pela AFPERGS em 2009</li>
@@ -41,6 +40,10 @@ export const Hospital = () => {
                 <li className='textLine'>7.233 atendimentos/mês em serviços de diagnóstico e tratamento</li>
             </ul>
         </div>
+        </div>
+        <div className='hospitalImg'>
+            <img src='../../hospital_entrada.jpg' alt='Entrada do Hospital de São Jerônimo' />            
+        </div>                
     </div>
   )
 }

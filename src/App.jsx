@@ -9,6 +9,8 @@ import {
 import { Home } from "./pages/home/Home"
 import { Hospital } from "./pages/hospital/Hospital"
 import { Estrutura } from "./pages/estrutura/Estrutura"
+import { Especialidades } from "./pages/especialidades/Especialidades"
+import { Convenios } from "./pages/convenios/Convenios"
 
 function App() {
   
@@ -21,6 +23,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/hospital" element={<Hospital />} />
           <Route path="/estrutura" element={<Estrutura />} />
+          <Route path="/especialidades" element={<Especialidades />} />
+          <Route path="/convenios" element={<Convenios />} />
         </Routes>
       </Router>      
     </div>
