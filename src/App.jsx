@@ -11,6 +11,9 @@ import { Hospital } from "./pages/hospital/Hospital"
 import { Estrutura } from "./pages/estrutura/Estrutura"
 import { Especialidades } from "./pages/especialidades/Especialidades"
 import { Convenios } from "./pages/convenios/Convenios"
+import { Laboratorio } from "./pages/laboratorio/Laboratorio"
+import { Localizacao } from "./pages/localizacao/Localizacao"
+import { Cidade } from "./pages/cidade/Cidade"
 
 function App() {
   
@@ -25,6 +28,9 @@ function App() {
           <Route path="/estrutura" element={<Estrutura />} />
           <Route path="/especialidades" element={<Especialidades />} />
           <Route path="/convenios" element={<Convenios />} />
+          <Route path="/laboratorio" element={<Laboratorio />} />
+          <Route path="/localizacao" element={<Localizacao />} />
+          <Route path="/cidade" element={<Cidade />} />
         </Routes>
       </Router>      
     </div>

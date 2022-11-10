@@ -1,0 +1,100 @@
+.cityContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .left{
+        flex: 1;
+
+        .imgContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            img{
+                width: 700px;
+                margin: 40px;
+                border-radius: 10px;            
+            }
+        }
+    }
+
+    .right{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        .mainText{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .textTitle{
+                margin-left: 200px;
+
+                h1{
+                    color: #f42b27;
+                }
+            }
+
+            .textContent{
+                width: 800px;
+
+                p{
+                    line-height: 1.6;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .extraData{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            margin-top: 100px;
+
+            .extraDataTitle{
+                margin-left: 300px;
+            }
+
+            .dataTable{
+                margin-top: 30px;
+                
+                table{
+
+                    tr{
+                        .dataName{
+                            width: 400px;
+                            text-align: center;
+                            font-weight: bold;
+                        }
+
+                        .dataContent{
+                            width: 400px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        .cityWebSite{
+            margin-top: 80px;
+
+            a{
+                margin-left: 250px;
+                text-decoration: none;
+                font-size: 18px;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
+}

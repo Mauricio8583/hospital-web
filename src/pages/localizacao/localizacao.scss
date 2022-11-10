@@ -1,0 +1,52 @@
+.localContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .local{
+        padding: 5px;
+
+        .localTitle{
+            h1{
+                color: #f53134;
+            }
+        }
+
+        .localAddress{
+            width: 700px;
+            margin-top: 20px;
+
+            span{
+                font-size: 18px;
+                line-height: 1.5;
+            }
+        }
+
+        .localLink{
+            margin-top: 20px;
+
+            a{
+                font-size: 20px;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                    color: #4480ef;
+                }
+            }
+        }
+
+        .localGoogleMaps{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+
+            img{
+                width: 500px;
+                border-radius: 20px;                
+            }
+        }
+    }
+}
