@@ -14,6 +14,7 @@ import { Convenios } from "./pages/convenios/Convenios"
 import { Laboratorio } from "./pages/laboratorio/Laboratorio"
 import { Localizacao } from "./pages/localizacao/Localizacao"
 import { Cidade } from "./pages/cidade/Cidade"
+import { Contato } from "./pages/contato/Contato"
 
 function App() {
   
@@ -31,6 +32,7 @@ function App() {
           <Route path="/laboratorio" element={<Laboratorio />} />
           <Route path="/localizacao" element={<Localizacao />} />
           <Route path="/cidade" element={<Cidade />} />
+          <Route path="/contato" element={<Contato />} />
         </Routes>
       </Router>      
     </div>
